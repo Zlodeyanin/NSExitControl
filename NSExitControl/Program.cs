@@ -11,9 +11,10 @@ namespace NSExitControl
 
             while (userInput != exitCommand)
             {
-                Console.WriteLine("Цикл работает, введите exit для выхода: ");
+                Console.WriteLine($"Цикл работает, введите {exitCommand} для выхода: ");
                 userInput = Console.ReadLine();
             }
+
             Console.WriteLine("Вы вышли из цикла.");
             Console.ReadKey();
         }
